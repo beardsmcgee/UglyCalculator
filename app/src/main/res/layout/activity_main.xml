@@ -27,17 +27,19 @@
             android:text="7"/>
         <Button
             android:id="@+id/button_8"
-            android:onClick="buttonPress"
+            android:onClick="buttonPress8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="8"/>
         <Button
             android:id="@+id/button_9"
-            android:onClick="buttonPress"
+            android:onClick="buttonPress9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="9"/>
         <Button
+            android:id="@+id/button_multiply"
+            android:onClick="buttonPressMultiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="X"/>
@@ -48,18 +50,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/button_4"
+            android:onClick="buttonPress4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="4"/>
         <Button
+            android:id="@+id/button_5"
+            android:onClick="buttonPress5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="5"/>
         <Button
+            android:id="@+id/button_6"
+            android:onClick="buttonPress6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="6"/>
         <Button
+            android:id="@+id/button_subtract"
+            android:onClick="buttonPressSubtract"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"/>
@@ -70,18 +80,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/button_1"
+            android:onClick="buttonPress1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1"/>
         <Button
+            android:id="@+id/button_2"
+            android:onClick="buttonPress2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2"/>
         <Button
+            android:id="@+id/button_3"
+            android:onClick="buttonPress3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3"/>
         <Button
+            android:id="@+id/button_add"
+            android:onClick="buttonPressAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"/>
@@ -92,18 +110,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/button_0"
+            android:onClick="buttonPress0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"/>
         <Button
+            android:id="@+id/button_decimal"
+            android:onClick="buttonPressDecimal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="."/>
         <Button
+            android:id="@+id/button_clear"
+            android:onClick="buttonPressClear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="AC"/>
         <Button
+            android:id="@+id/button_equal"
+            android:onClick="buttonPressEqual"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="="/>
