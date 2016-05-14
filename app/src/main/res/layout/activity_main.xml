@@ -3,17 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     tools:context="com.ericwickstrom.uglycalculator.MainActivity">
 
     <TextView
         android:id="@+id/display"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="wrap_content"
+        android:textSize="50dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,27 +22,27 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/button_7"
-            android:onClick="buttonPress7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress7"
             android:text="7"/>
         <Button
             android:id="@+id/button_8"
-            android:onClick="buttonPress8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress8"
             android:text="8"/>
         <Button
             android:id="@+id/button_9"
-            android:onClick="buttonPress9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress9"
             android:text="9"/>
         <Button
             android:id="@+id/button_multiply"
-            android:onClick="buttonPressMultiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPressMultiply"
             android:text="X"/>
     </LinearLayout>
 
@@ -51,27 +52,27 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/button_4"
-            android:onClick="buttonPress4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress4"
             android:text="4"/>
         <Button
             android:id="@+id/button_5"
-            android:onClick="buttonPress5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress5"
             android:text="5"/>
         <Button
             android:id="@+id/button_6"
-            android:onClick="buttonPress6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress6"
             android:text="6"/>
         <Button
             android:id="@+id/button_subtract"
-            android:onClick="buttonPressSubtract"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPressSubtract"
             android:text="-"/>
     </LinearLayout>
 
@@ -81,27 +82,27 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/button_1"
-            android:onClick="buttonPress1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress1"
             android:text="1"/>
         <Button
             android:id="@+id/button_2"
-            android:onClick="buttonPress2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress2"
             android:text="2"/>
         <Button
             android:id="@+id/button_3"
-            android:onClick="buttonPress3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress3"
             android:text="3"/>
         <Button
             android:id="@+id/button_add"
-            android:onClick="buttonPressAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPressAdd"
             android:text="+"/>
     </LinearLayout>
 
@@ -111,27 +112,27 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/button_0"
-            android:onClick="buttonPress0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPress0"
             android:text="0"/>
         <Button
             android:id="@+id/button_decimal"
-            android:onClick="buttonPressDecimal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPressDecimal"
             android:text="."/>
         <Button
             android:id="@+id/button_clear"
-            android:onClick="buttonPressClear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPressClear"
             android:text="AC"/>
         <Button
             android:id="@+id/button_equal"
-            android:onClick="buttonPressEqual"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonPressEqual"
             android:text="="/>
     </LinearLayout>
 </LinearLayout>
